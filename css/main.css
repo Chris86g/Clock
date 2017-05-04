@@ -21,16 +21,15 @@ body {
 .clock {
   width: 300px;
   height: 300px;
-  border: 15px solid rgba(255,255,255,0.5);
+  border: 20px solid rgba(255,255,255,0.5);
   border-radius: 50%;
   margin: 50px auto;
   position: relative;
   padding: 2rem;
   box-shadow:
-   0 0 0 5px rgba(0,0,0,0.1),
-   inset 0 0 0 5px #EFEFEF,
-   inset 0 0 0 5px #000,
-   0 0 10px rgba(0,0,0,0.2);
+   0 0 0 1px #05486c,
+   inset 0 0 0 1px #05486c,
+   0 0 5px rgba(0,0,0,0.2);
 }
 
 .clock-face {
@@ -48,7 +47,7 @@ body {
   top:50%;
   transform-origin: 100%;
   transform: rotate(90deg);
-  transition: all 0.05s;
+  transition: all 0.05s forward;
   transition-timing-function: cubic-bezier(0.1, 2.01, 1,-0.18);
 }
 
