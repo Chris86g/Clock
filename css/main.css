@@ -81,5 +81,5 @@ footer {
 
 .socialmedia img:hover {
   transform: scale(1.1);
-  box-shadow: 0 0 5px #05486c;
+  box-shadow: 0 0 0 1px #05486c;
 }
